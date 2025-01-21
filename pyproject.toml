@@ -1,0 +1,15 @@
+[project]
+name = "explore_impacts"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Alec Koumjian", email = "alec@b612foundation.org"},
+]
+dependencies = ["adam-impact-study @ git+https://github.com/B612-Asteroid-Institute/adam_impacts_study.git@646ffca0913cfa6dc2c02fbb98505836062db512", "mpcq>=0.3.0"]
+requires-python = "<3.13,>=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
